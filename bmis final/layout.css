@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(224, 213, 196);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.common {
+    background-color: rgb(182, 214, 214);
+    border: solid 4px;
+}
+.header {
+    background-color:  rgb(182, 214, 214);
+    padding: 10px;
+    position: relative;
+    z-index: 3;
+}
+
+.leftmenu {
+    background-color: rgb(185, 243, 243);
+    width: 220px;
+    height: 1500px;
+    float: left;
+    z-index: 2;
+}
+
+.mainbody {
+    padding: 10px;
+    margin-left: 220px;
+    margin-right:220px;
+    position: relative;
+    z-index: 1;
+}
+
+.rightmenu {
+    background-color: rgb(185, 243, 243);
+    width: 215px;
+    float: right;
+    height: 250px;
+    z-index: 2;
+    position: relative;
+    top: -700px; 
+}
+
+    
+
+.footer {
+    background-color: rgb(185, 243, 243);
+    padding: 10px;
+    clear: both;
+    position: relative;
+    z-index: 3;
+}
+.subheader{
+    float: right;
+    
+}
